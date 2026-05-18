@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>LeadMe</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background: linear-gradient(to bottom, #87CEEB, #f0f8ff);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #00aaff;
+      color: white;
+      padding: 20px;
+    }
+    section {
+      margin: 20px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h2 { color: #00aaff; }
+    input, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #00aaff;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #00aaff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover { background-color: #0077aa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌟 LeadMe 🌟</h1>
+    <p>منصة التخطيط الاستراتيجي والإنجاز الشخصي</p>
+  </header>
+
+  <section>
+    <h2>🎯 هدفي الاستراتيجي</h2>
+    <textarea placeholder="اكتب هدفك هنا..."></textarea>
+  </section>
+
+  <section>
+    <h2>📌 أهدافي الفرعية</h2>
+    <textarea placeholder="اكتب أهدافك الفرعية..."></textarea>
+  </section>
+
+  <section>
+    <h2>💡 قيم تمثلني</h2>
+    <textarea placeholder="اكتب قيمك الأساسية..."></textarea>
+  </section>
+
+  <section>
+    <h2>🗓️ تخطيط يومي</h2>
+    <textarea placeholder="خطط يومك خطوة بخطوة..."></textarea>
+  </section>
+
+  <section>
+    <h2>🚀 إنجازاتي وتقدمي</h2>
+    <textarea placeholder="سجل إنجازاتك هنا..."></textarea>
+  </section>
+
+  <section>
+    <h2>✍️ أفكاري وملاحظاتي</h2>
+    <textarea placeholder="اكتب أفكارك وملاحظاتك..."></textarea>
+  </section>
+
+  <button>💾 حفظ البيانات</button>
+</body>
+</html>
